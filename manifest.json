@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Twitter AI Replies",
+    "version": "1.0",    
+    "description": "Generates AI replies to tweets using GPT-3",
+    "icons": {
+      "16": "./assets/images/icon16.png"      
+    },
+    "permissions": [
+      "activeTab"      
+    ],
+    "action": {
+      "default_popup": "./src/index.html"      
+    },
+    "host_permissions": [
+      "https://twitter.com/"
+    ],
+    "optional_host_permissions": [
+      "*://*/*"
+    ]    
+  }
+  
